@@ -1,0 +1,10 @@
+Feature,Description,Data Type
+ID,Identification number for pokemon,Integer
+image_file,file location of image used for processing the pokemon,string
+type_1,primary type (may not be none),Integer (mapped to strings)
+type_2,secondary type (may be none),Integer (mapped to strings)
+egg_group_1,first egg group (may not be none),Integer (mapped to strings)
+egg_group_1,second egg group (may be none),Integer (mapped to strings)
+height,height of pokemon in meters,decimal
+weight,weight of pokemon in kilograms,decimal
+generation,generation the pokemon originated from,integer
